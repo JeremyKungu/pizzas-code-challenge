@@ -11,3 +11,6 @@ Pizza.create!(name: "Pepperoni", ingredients: "Dough, Tomato Sauce, Cheese, Pepp
 
 Restaurant.create!(name: "Sottocasa NYC", address: "298 Atlantic Ave, Brooklyn, NY 11201")
 Restaurant.create!(name: "PizzArte", address: "69 W 55th St, New York, NY 10019")
+
+RestaurantPizza.create!(price: 5, pizza_id: 1, restaurant_id: 3)
+RestaurantPizza.create!(price: 4, pizza_id: 2, restaurant_id: 5)
